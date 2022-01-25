@@ -1,0 +1,35 @@
+
+SERVER FOR ANDROID APPLICATION "FindFriend" (link)
+
+API with example values
+ http://localhost:8080/animals-short-info-list*
+
+  /animal-types - Get types of animal (dog, cat)
+  /animal-short-info-list - Get a list of animal short info (id, age, name, type).
+
+  /animal-detailed-info/animal_id=1 - Get detailed information with the media (photo, videos of animals) and description of the animal.
+  /animal-short-info-filtered-by-age/from=0&to=5 - Get a list of animal short info (id, age, name, type) filtered by age.
+  /animal-short-info-filtered-by-type/type=1 -  Get a list of animal short info  (id, age, name, type) filtered by type. There are two types: 1-Dog and 2-Cat.
+  /animal-short-info-list-filtered-by-age-type/from=0&to=7&type=1 - Get a list of animal short info  (id, age, name, type) filtered by age.
+  /create-user/name=Anna&login=anna04&password=qwerty
+  /delete-user/user_id=1
+  /sing-in/login=anna04&password=qwerty
+  /add-favorite-animal/user_id=1&animal_id=1 - Add a favorite animal for user_id
+  /delete-favorite-animal/user_id=1&animal_id=1 Delete a favorite animal for user_id
+  /favorite-animal-list/user_id=1 Get a list of favorite animals lists for user_id
+
+
+BUILD WAR
+mvn compile
+mvn package
+
+HOW RUN APACHE TOMCAT
+
+Execution default of goal org.springframework.boot:spring-boot-maven-plugin...
+mvn clean install spring-boot:repackage
+
+
+404 -extends SpringBootServletInitializer
+500- when return json bd
+
+C:\apache-tomcat-8.5.60\webapps\resourses\findfriend\animals
