@@ -1,4 +1,4 @@
-package com.afokeeva.table;
+package com.springserver.table;
 
 public class UserData {
 

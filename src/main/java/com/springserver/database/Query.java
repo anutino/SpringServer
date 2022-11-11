@@ -1,6 +1,6 @@
-package com.afokeeva.database;
+package com.springserver.database;
 
-import com.afokeeva.table.UserData;
+import com.springserver.table.UserData;
 
 public class Query {
 

@@ -8,7 +8,7 @@
         <version>2.3.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.afokeeva</groupId>
+    <groupId>com.springserver</groupId>
     <artifactId>rest-service-findfriend</artifactId>
     <!--<version>0.0.1-SNAPSHOT</version>-->
     <packaging>war</packaging>

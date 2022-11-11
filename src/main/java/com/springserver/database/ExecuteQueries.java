@@ -1,11 +1,11 @@
-package com.afokeeva.database;
+package com.springserver.database;
 
-import com.afokeeva.table.AnimalData;
+import com.springserver.table.AnimalData;
 //
 //import org.apache.log4j.LogManager;
 //import org.apache.log4j.Logger;
 
-import com.afokeeva.table.AnimalType;
+import com.springserver.table.AnimalType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -18,10 +18,7 @@ import java.util.ArrayList;
 public class ExecuteQueries {
 
     private static final Logger LOG = LogManager.getLogger(ExecuteQueries.class);
-
-
     private static final int SUCCESS = 1;
-
     private static final String ID_ANIMAL = "id_animal";
     private static final String DESCRIPTION = "description";
     private static final String AGE = "age";

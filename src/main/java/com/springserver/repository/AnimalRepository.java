@@ -1,7 +1,7 @@
-package com.afokeeva.repository;
+package com.springserver.repository;
 
-import com.afokeeva.table.AnimalData;
-import com.afokeeva.table.AnimalType;
+import com.springserver.table.AnimalData;
+import com.springserver.table.AnimalType;
 
 import java.util.ArrayList;
 

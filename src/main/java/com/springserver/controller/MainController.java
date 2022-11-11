@@ -1,10 +1,10 @@
-package com.afokeeva.controller;
+package com.springserver.controller;
 
-import com.afokeeva.repository.Animal;
-import com.afokeeva.repository.User;
-import com.afokeeva.table.AnimalData;
-import com.afokeeva.table.AnimalType;
-import com.afokeeva.table.UserData;
+import com.springserver.repository.Animal;
+import com.springserver.repository.User;
+import com.springserver.table.AnimalData;
+import com.springserver.table.AnimalType;
+import com.springserver.table.UserData;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

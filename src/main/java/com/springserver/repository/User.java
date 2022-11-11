@@ -1,8 +1,8 @@
-package com.afokeeva.repository;
+package com.springserver.repository;
 
-import com.afokeeva.database.ExecuteQueries;
-import com.afokeeva.database.Query;
-import com.afokeeva.table.UserData;
+import com.springserver.database.ExecuteQueries;
+import com.springserver.database.Query;
+import com.springserver.table.UserData;
 
 public class User implements UserRepository {
 

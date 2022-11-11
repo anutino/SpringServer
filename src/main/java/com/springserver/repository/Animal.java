@@ -1,14 +1,14 @@
-package com.afokeeva.repository;
+package com.springserver.repository;
 
 
-import com.afokeeva.database.ExecuteQueries;
-import com.afokeeva.table.AnimalData;
-import com.afokeeva.database.Query;
+import com.springserver.database.ExecuteQueries;
+import com.springserver.table.AnimalData;
+import com.springserver.database.Query;
 
 //import org.apache.log4j.LogManager;
 //import org.apache.log4j.Logger;
 
-import com.afokeeva.table.AnimalType;
+import com.springserver.table.AnimalType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
